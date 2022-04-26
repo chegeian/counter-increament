@@ -1,22 +1,27 @@
 body{
-    background-image: url(/arda-tutkun-RgGz2WIjxRA-unsplash.jpg);
+    background-image: url(/colin-blenis-MTpNJRxtki0-unsplash.jpg);
     background-size: cover;
     text-align: center;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100vw;
 }
 
 h1{
     margin-top: 10px;
     margin-bottom: 10px;
+    color: aquamarine;
 }
 
 h2{
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+    color: aqua;
 }
- 
+#save-el{
+    color: yellow;
+}
 #increment-btn{
     background: darkred;
 }
@@ -30,4 +35,16 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+}
+
+#save-btn{
+    background: green;
+}
+
+@media only screen and (max-width: 1024px){
+    form input, form textarea{
+    width: 100%;
+    margin: 5px 0;
+    }
+    
 }
